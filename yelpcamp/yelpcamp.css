@@ -1,0 +1,81 @@
+body{
+    background-color:seashell;
+}
+#header{
+    position: relative;
+    left:100px;
+    top:20px;
+}
+#main{
+    position:absolute;
+    margin-left:100px;
+    margin-right:850px;
+    top:100px;
+    }
+#hero{
+    position:absolute;
+    left:713px;
+    width:550px; 
+    height:570px;
+}
+li{
+    text-indent: 5px;
+}
+ul{
+    list-style-image:url('../../yelp files/YelpCamp Starter Files/Assets/Checkmark.svg');`
+}
+#li1{
+    position:relative;
+    right:15px;
+}
+#bn{
+    position:absolute;
+    top:280px;
+    margin-left:-20px;
+}
+#button{
+    height: 50px;
+    width: 170px;
+    margin: 10px 0px 0px 20px;
+    background-color:black;
+    color: aliceblue;
+    border-radius: 3px;
+    border-width: 0px;
+    cursor: pointer;
+}   
+#button:hover{
+    background-color:cadetblue;
+    transition:all;
+}
+footer{
+    position:absolute;
+    top:450px;
+    left: 100px;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        left:30px;
+    }
+    #bn{
+        top:270px;
+    }
+    #hero{
+        top:80px;
+        left: 0px;
+        height:320px;
+        width:483px;
+    }
+    h1{
+        margin-right: 100px;
+    }
+    #main{
+        top:400px;
+        left:-80px;
+        margin-right: 100px;
+    }
+    footer{
+        top: 750px;
+        left: 20px;
+    }
+}
+

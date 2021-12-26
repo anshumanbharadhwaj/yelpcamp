@@ -1,0 +1,70 @@
+header{
+    position: absolute;
+    top:30px;
+    left:100px;
+}
+#home{
+    background-color: transparent;
+    border: none;
+    color:gray;
+    font-weight:bold;
+    cursor: pointer;
+}
+#hme{
+    position: relative;
+    left:20px;  
+    bottom:8px;
+}
+#comment{
+    position:absolute;
+    left:400px;
+    top:90px;
+}
+#comt{
+    width: 450px;
+    height:200px;
+    background-color:#C7C8C3;
+    border: none;
+}
+::placeholder{
+    position: absolute;
+    right: 30px;
+    left: 15px;
+    white-space:pre-line;
+    color: gray;                       
+    }
+#cmt{
+    background-color: black;
+    color:white;
+    width:450px;
+    border: none;
+    border-radius:5px;
+    height:40px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+footer{
+    position:absolute;
+    top:500px;
+    left:100px;
+}
+@media screen and (max-width:900px) {
+    header{
+        position:absolute;  
+        left:10px;
+    }
+    #comment{
+        left:10px;
+        margin:0px;
+    }
+    #comt{
+        width:300px;
+    }
+    #cmt{
+        width:300px;
+    }
+    footer{
+        position: absolute;
+        left:10px;
+    }
+}

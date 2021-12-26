@@ -1,0 +1,107 @@
+#side{
+    position: absolute;
+    left:700px;
+    background-color:#dbd0d0;
+    height:360px;
+    top:0px;
+    padding:200px 160px 15px 180px;
+    font-size:20px;
+}
+q{
+    font-weight: bold;
+}
+#back{
+    position:absolute;
+    top:20px;
+    left:400px;
+}
+#back a{
+    text-decoration: none;
+}
+#one{
+    font-size:15px;
+    position:absolute;
+    padding-left:15px;
+}
+#two{
+    font-size:13px;
+    padding-left:15px;
+}
+#logo{
+    position:absolute;
+    top:20px;
+}
+#b{
+    position:absolute;
+    top:120px;
+    margin-right: 700px;
+    margin-left: 100px;
+    font-size:30px;
+}
+#sign{
+    position:absolute;
+    top:220px;
+    left:110px;
+}
+.mal{
+    width:400px;
+    height:40px;
+    border-radius: 5px;
+    background-color:#efefef;
+    border:none;
+}
+#btn{
+    width:400px;
+    height:40px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#already{
+    position:absolute;
+    top:470px;
+    left:110px;
+}
+#already a:link{
+    color: blue;
+}
+#already a:hover{
+    color:crimson;
+}
+#back a:any-link{
+    color:#99999b; 
+}
+#back a:hover{
+    color:darkcyan;
+}
+@media screen and (max-width:900px){
+    #back{
+        left:250px;
+    }
+    #side{
+        left: 10px;
+        top:530px;
+        height:180px;
+        width:280px;
+        padding:10px 50px 10px 30px;
+    }
+    #sign{
+        left:30px;
+    }
+    #b{
+        top:100px;
+        margin-left: 20px;
+        margin-right:200px;
+    }
+    .mal{
+        width:300px;
+    }
+    #btn{
+        width:300px;
+    }
+    #already{
+        left:30px;
+    }
+}

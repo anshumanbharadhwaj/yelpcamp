@@ -1,0 +1,262 @@
+header{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+#home{
+    background-color: transparent;
+    border:none;
+    font-weight: bold;
+    color:grey;
+    position: absolute;
+    top:47px;
+    left:200px;
+    text-decoration:none; 
+}
+#med{
+    display:none;
+}
+#cred{
+    position:absolute;
+    left:1000px;
+    top:40px;
+}
+#log{
+    background-color:transparent;
+    text-decoration: none;
+    border:none;
+    margin-right: 10px;
+    color:#99999b;
+}
+#search a:link{
+    color: #99999b;
+}
+#search a:hover{
+    color:cadetblue;
+}
+#cret{
+    background-color: black;
+    color: white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    padding:12px;
+    text-decoration: none;
+}
+#search{
+    background-color: #F9FAF5;
+    position:absolute;
+    padding-left: 40px;
+    top:130px;
+    left:170px;
+    width: 950px;
+    height:250px;
+}
+#scamp{
+    background-color: black;
+    color:white;
+    border:none;
+    width:70px;
+    height:40px;
+    border-radius:4px;
+}
+#mag{
+    width:180px;
+    height:35px;
+}
+h1{
+    position: relative;
+    top:17px;
+    right:5px;
+}
+#p1{
+    position: relative;
+    margin-right: 620px;
+    line-height: 20px;
+}
+.grd{
+    width: 230px;;
+    height:35px;
+    position: relative;
+    left:30px;
+    bottom:10px;
+    background-color: transparent;
+    border:1px solid #99999b;
+    border-radius:5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px #99999b ;
+}
+.i{
+    position: relative;
+    left:13px;
+    top:8px;
+    border-radius:3px;
+    width:280px;
+}
+h4{
+   position: relative;
+   bottom:5px;
+   left:20px;
+}
+.ps{
+    position: relative;
+    bottom:15px;
+    margin-left:20px;
+    margin-right: 50px;
+    font-size:15px;
+}
+#img1{
+
+    border:1px solid #99999b;
+    position:absolute;
+    top:430px;
+    left:180px;
+    width:300px; 
+    height:300px;
+}
+#img2{
+    border:1px solid #99999b;
+    position:absolute;
+    top:430px;
+    left:500px;
+    width:300px;
+    height:300px;
+}
+#img3{
+    border:1px solid #99999b;
+    width:300px;
+    position:absolute;
+    top:430px;
+    left:820px;
+    height:300px;
+}
+#img4{
+    border:1px solid #99999b;
+    width:300px;
+    position:absolute;
+    top:780px;
+    left:180px;
+    height:300px;
+}
+#img5{
+    border:1px solid #99999b;
+    width:300px;
+    position:absolute;
+    top:780px;
+    left:500px;
+    height:300px;
+}
+#img6{
+    border:1px solid #99999b;
+    width:300px;
+    position:absolute;
+    left:820px;
+    top:780px;
+    height:300px;
+}
+footer{
+   position:relative;
+   top:1100px;
+}
+@media screen and (max-width:600px) {
+    #cred,#home{
+        display: none;
+    }
+    header{
+        margin-left: 10px;
+    }
+    #med{
+        position: relative;
+        display: inline-block;
+        background-color:#F9FAF5;
+        padding: 5px;
+        left:250px;
+        top:-60px;
+    }
+    #drop{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 140px;
+        box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    }
+    #med:hover #drop{
+        display: inline;
+    }
+    #home1{
+    background-color: transparent;
+    top:40px;
+    left:-30px;
+    border:none;
+    font-weight: bold;
+    color:grey;
+    position: absolute;
+    text-decoration:none;
+    }
+    #log1{
+        background-color:transparent;
+        top:60px;
+        left:-30px;
+        position: absolute;
+        text-decoration: none;
+        border:none;
+        margin-right: 10px;
+        color:#99999b;
+    }
+    #cret1{
+        background-color: black;
+        position: absolute;
+        left:-30px;
+        display:block;
+        top:80px;
+        color: white;
+        font-size:15px;
+        border:none;
+        border-radius:5px;
+        padding:5px;
+        text-decoration: none;
+    }
+    #search{
+        left:10px;
+        top:100px;
+        width:300px;
+        height: 300px;
+    }
+    #p1{
+        margin-right: 60px; 
+        margin-top: -40px;
+    }
+    h1{
+        top:-25px;
+    }
+    #img1{
+        left:10px;
+        top: 430px;
+    }
+    #img2{
+        left:10px;
+        top:750px;
+    }
+    #img3{
+        left:10px;
+        top:1070px;
+    }
+    #img4{
+        left:10px;
+        top: 1390px;
+    }
+    #img5{
+        left:10px;
+        top:1710px;
+    }
+    #img6{
+        left:10px;
+        top:2030px;
+    }
+    footer{
+        top:2300px;
+
+        padding-bottom: 100px;
+    }
+
+}
